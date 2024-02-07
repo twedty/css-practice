@@ -1,4 +1,16 @@
+h1{
+    border:1px solid black;
+    /* height: 500px; */
+    /* padding: 500px; */
+    margin: 50px 25px 50px 25px;
+    /* top right bottom left without needing to specify. If the top and right are the same as the bottom and left then you can take off the redundancy. */
+}
+/* content then padding then border then margin.
+Content is what's in it. Padding is the space in between the conent and the border. Margin is the space between elements. EVERYTHING is a box.*/
 
+h1:hover{
+    color: gold;
+} 
 
 
 /* h1, h2{
